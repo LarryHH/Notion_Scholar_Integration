@@ -1,1 +1,1 @@
-# Notion_Scholar_Integration
+# ScholarSync
