@@ -13,11 +13,16 @@ class Source:
     def __str__(self) -> str:
         return f'{self.name},{self.authors},{self.year},{self.citations},{self.venue},{self.link}'
 
+    def reset(self):
+        """reset object variables to None"""
+        self.__init__()
+
     def get_pub_by_title(self, title):
         """get single Scholar result from title search"""
         search_query = None
         try:
             search_query = scholarly.search_single_pub(title, filled = False)
+            print(search_query)
         except IndexError as err:
             print(err)
         if search_query:

@@ -8,14 +8,14 @@ from difflib import SequenceMatcher
 import requests
 
 # import parse_titles as pt
-# import scholar as gs
+import scholar as gs
 
 
 def print_rest_status(res):
     """prints REST API call status and func that calls it"""
     print(
         f"--- {res.status_code} - {res.reason} from: {inspect.stack()[1][3]} ---")
-    print(res.text)
+    # print(res.text)
 
 
 def read_db():
@@ -29,7 +29,7 @@ def read_db():
     return data
 
 
-def create_page():
+def create_page(name=None, authors=None, year=None, venue=None, link=None, citations=None):
     """create new database entry"""
     page = {
         "parent": {
@@ -38,7 +38,7 @@ def create_page():
         "properties": {
             "Name": {
                 "type": "title",
-                "title": [{"text": {"content": "TEST"}}],
+                "title": [{"text": {"content": name}}],
             },
             "Link": {
                 "type": "files",
@@ -52,6 +52,10 @@ def create_page():
                 "type": "multi_select",
                 "multi_select": []
             },
+            "Authors": {
+                "type": "multi_select",
+                "multi_select": []
+            },
             "Type": {
                 "type": "select",
                 "select": None
@@ -62,7 +66,11 @@ def create_page():
             },
             "Citations": {
                 "type": "number",
-                "number": 42
+                "number": citations
+            },
+            "Year": {
+                "type": "number",
+                "number": year
             },
             "Venue": {
                 "type": "rich_text",
@@ -120,10 +128,11 @@ def load_config_notion(fp):
     token = config.get('NOTION', 'INTEGRATION_TOKEN')
     return db_id, token
 
+
 if __name__ == "__main__":
     db_id, token = load_config_notion('config.ini')
-    INTEGRATION_TOKEN = db_id
-    DATABASE_ID = token
+    INTEGRATION_TOKEN = token
+    DATABASE_ID = db_id
     HEADERS = {
         "Authorization": "Bearer " + INTEGRATION_TOKEN,
         "Content-Type": "application/json",
@@ -131,8 +140,23 @@ if __name__ == "__main__":
     }
 
     db = read_db()
-    pages = [create_page()]
-    add_page(pages[0])
-    # for page in pages:
-    #     if not check_duplicate_page(db, page):
-    #         add_page(page)
+
+    papers = [
+        '''A. L. Samuel, “Some studies in machine learning using the game of checkers, ” IBM Journal of Research and Development, July 1959.''',
+        '''S. C. Kak, “Quantum neural computing, ” Advances in Imaging and Electron Physics, 1995.''',
+        '''M. W. Berry, S. T. Dumais and G. W. O’Brien, “Using linear algebra for intelligent information retrieval, ” SIAM Rev., December 1995.'''
+    ]
+
+    source = gs.Source()
+    for paper in papers:
+        source.reset()
+        print(paper)
+        source.get_pub_by_title(paper)
+        print(source)
+        page = create_page(
+            name=source.name,
+            year=source.year,
+            citations=source.citations
+        )
+        if not check_duplicate_page(db, page):
+            add_page(page)
