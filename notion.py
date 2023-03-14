@@ -1,15 +1,17 @@
-# import notion_database, notion
-import requests
-import json
+""" Notion Integration Manager """
+
 import inspect
+import json
 from configparser import ConfigParser
-from datetime import datetime, timezone
 from difflib import SequenceMatcher
 
-import parse_titles as pt
+import requests
+
+# import parse_titles as pt
+# import scholar as gs
 
 
-def PRINT_REST_STATUS(res):
+def print_rest_status(res):
     """prints REST API call status and func that calls it"""
     print(
         f"--- {res.status_code} - {res.reason} from: {inspect.stack()[1][3]} ---")
@@ -20,7 +22,7 @@ def read_db():
     """reads notion database and returns data"""
     url = f"https://api.notion.com/v1/databases/{DATABASE_ID}/query"
     res = requests.request("POST", url, headers=HEADERS)
-    PRINT_REST_STATUS(res)
+    print_rest_status(res)
     data = res.json()
     # with open('./db.json', 'w', encoding='utf8') as f:
     #     json.dump(data, f, ensure_ascii=False)
@@ -61,6 +63,10 @@ def create_page():
             "Citations": {
                 "type": "number",
                 "number": 42
+            },
+            "Venue": {
+                "type": "rich_text",
+                "rich_text": []
             },
             "Status": {
                 "type": "status",
@@ -103,10 +109,11 @@ def add_page(page):
     url = 'https://api.notion.com/v1/pages'
     data = json.dumps(page)
     res = requests.request("POST", url, headers=HEADERS, data=data)
-    PRINT_REST_STATUS(res)
+    print_rest_status(res)
 
 
 def load_config_notion(fp):
+    """read notion credentials"""
     config = ConfigParser()
     config.read(fp)
     db_id = config.get('NOTION', 'DATABASE_ID')
