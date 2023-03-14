@@ -1,0 +1,188 @@
+[4066] A. L. Samuel, “Some studies in machine learning using the game of checkers,” IBM Journal of Research and Development, July 1959.
+[3982] S. C. Kak, “Quantum neural computing,” Advances in Imaging and Electron Physics, 1995.
+[3727] M. W. Berry, S. T. Dumais and G. W. O’Brien, “Using linear algebra for intelligent information retrieval,” SIAM Rev., December 1995.
+[3973] G. Purushothaman and N. B. Karayiannis, “Quantum neural networks (QNN’s): Inherently fuzzy feedforward neural networks,” IEEE Transactions on Neural Networks, May 1997.
+[3938] E. Bernstein and U. Vazirani, “Quantum complexity theory,” Society for Industrial and Applied Mathematics, October 1997.
+[3948] Y. Amit and D. Geman, “Shape quantization and recognition with randomized trees,” Neural Computation, October 1997.
+[3721] A. Frieze, R. Kannan, and S. Vempala, “Fast monte-carlo algorithms for finding low-rank approximations,” Proceedings 39th Annual Symposium on Foundations of Computer Science, November 1998.
+[3937] Y. LeCun, L. Bottou, Y. Bengio and P. Haffner, “Gradient-based learning applied to document recognition,” Proceedings of the IEEE, November 1998.
+[3972] J. Zhou, Q. Gan, A. Krzyzak, and C. Y. Suen, “Recognition of handwritten numerals by quantum neural network with fuzzy features,” International Journal on Document Analysis and Recognition, July 1999.
+[4080] J. A. K. Suykens and J. Vandewalle, “Least squares support vector machine classifiers,” Neural Processing Letters, 1999.
+[3920] T. G. Draper, “Addition on a quantum computer,” arXiv, June 2000.
+[3726] C. H. Papadimitriou, P. Raghavan, H. Tamaki, and S. Vempala, “Latent semantic indexing: A probabilistic analysis,” Journal of Computer and System Sciences, October 2000.
+[3918] A. Y. Ng and M. I. Jordan, “On discriminative vs. generative classifiers: a comparison of logistic regression and naive Bayes,” International Conference on Neural Information Processing Systems, January 2001.
+[4118] D. Meyer, F. Leisch, and K. Hornik, “The support vector machine under test,” Neurocomputing, September 2003.
+[3729] P. Drineas, A. Frieze, R. Kannan, S. Vempala, and V. Vinay, “Clustering large graphs via the singular value decomposition,” Machine Learning, January 2004.
+[3885] H. Jaeger and H. Haas, “Harnessing nonlinearity: Predicting chaotic systems and saving energy in wireless communication,” Science, April 2004.
+[3720] P. Drineas, R. Kannan, and M. W. Mahoney, “Fast monte carlo algorithms for matrices II: Computing a low-rank approximation to a matrix,” SIAM Journal on Computing, May 2004.
+[3722] A. Frieze, R. Kannan, and S. Vempala, “Fast monte-carlo algorithms for finding low-rank approximations,” Journal of the ACM, November 2004.
+[3728] M. Brand, “Fast low-rank modifications of the thin singular value decomposition,” Linear Algebra and its Applications, September 2005.
+[3997] L. Bouten, R. van Handel, and M. R. James, “An introduction to quantum filtering,” SIAM Journal on Control and Optimization, 2007.
+[3730] D. Achlioptas and F. McSherry, “Fast computation of low rank approximation, Journal of the ACM, April 2007.
+[3884] M. A. Ranzato, F. J. Huang, Y-L. Boureau, and Y. LeCun, “Unsupervised learning of invariant feature hierachies with applications to object recognition,” IEEE Conference on Computer Vision and Pattern Recognition, June 2007.
+[3971] P. Li and J. Li, “A facial expression recognition method based on quantum neural networks,” International Conference on Intelligent Systems and Knowledge Engineering, October 2007.
+[3946] A. Rahimi and B. Recht, “Random features for large-scale kernel machines,” Proceedings of the 20th International Conference on Neural Information Processing Systems, December 2007.
+[3910] V. Giovannetti, S. Lloyd, and L. Maccone, “Quantum random access memory,” Physical Review Letters, April 2008.
+[3944] T. Hofmann, B. Scholkopf, and A. J. Smola, “Kernel methods in machine learning,” Annals of Statistics, June 2008.
+[3943] A. Rahimi and B. Recht, “Uniform approximation of functions with random bases, “ Annual Allerton Conference, September 2008.
+[3947] A. Rahimi and B. Recht, “Weighted sums of random kitchen sinks: Replacing minimization with randomization in learning,” Advances in Neural Information Processing Systems, December 2008.
+[3725] A. W. Harrow, A. Hassidim, and S. Lloyd, “Quantum algorithm for linear systems of equations,” Physical Review Letters, October 2009.
+[3791] T. D. Ladd, F. Jelezko, R. Laflamme, Y. Nakamura, C. Monroe, and J. L. O’Brien, “Quantum computers,” Nature, March 2010.
+[3969] A. Coates, H. Lee, A. Y. Ng, “An analysis of single-layer networks in unsupervised feature learning,” January 2011.
+[3847] J. Stallkamp, M. Schlipsing, J. Salmen, and C. Igel, “The German traffic sign recognition benchmark: A multi-class classification competition,” International Joint Conference on Neural Networks, August 2011.
+[3881] P. Sermanet and Y. LeCun, “Traffic sign recognition with multi-scale convolutional networks,” International Joint Conference on Neural Networks, August 2011.
+[3950] T. Yang, Y-F. Li, M. Mahdavi, R. Jin, and Z-H. Zhou, “Nystrom method vs random Fourier features: A theoretical and empirical comparison,” Advances in Neural Information Processing Systems, 2012.
+[3886] B. Zhang, D. J. Miller and Y. Wang, “Nonlinear system modeling with random matrices: Echo state networks revisited,” IEEE Transactions on Neural Networks and Learning Systems, January 2012.
+[3909] A. Bocharov and K. M. Svore, “A depth-optimal canonical form for single-qubit quantum circuits,” arXiv, June 2012.
+[3916] P. Domingos, “A few useful things to know about machine learning,” Communications of the ACM, October 2012.
+[4092] A. Peruzzo, J. McClean, P. Shadbolt, M-H. Yung, X-Q. Zhou, P. J. Love, A. Aspuru-Guzik, and J. L. O’Brien, “A variational eigenvalue solver on a photonic quantum processor,” Nature Communications, July 2014.
+[3914] S. Lloyd, M. Mohseni, and P. Rebentrost, “Quantum principal component analysis,” Nature Physics, July 2014.
+[3930] M. Schuld, I. Sinayskiy, and F. Petruccione, “The quest for a quantum neural network,” Quantum Information Process, August 2014.
+[3912] P. Rebentrost, M. Mohseni, and S. Lloyd, “Quantum support vector machine for big data classification,” Physical Review Letters, September 2014.
+[3955] R. Orus, “A practical introduction to tensor networks: Matrix product states and projected entangled pair states,” Annals of Physics, October 2014.
+[3908] A. Paetznick and K. M. Svore, “Repeat-until-success: Non-deterministic decomposition of single-qubit unitaries,” arXiv, October 2014.
+[3962] E. Farhi and J. Goldstone, “A quantum approximate optimization algorithm,” arXiv, November 2014.
+[3843] Z. Li, X. Liu, N. Xu, and J. Du, “Experimental realization of a quantum support vector machine,” Physical Review Letters, April 2015.
+[3519] Y. LeCun, Y. Bengio, and G. Hinton, “Deep learning,” Nature, May 2015.
+[3949] D. J. Sutherland and J. Schneider, “On the error of random Fourier features,” arXiv, June 2015.
+[3996] S. Xue, M. R. James, A. Shabani, V. Ugrinovskii, and I. R. Petersen, “Quantum filter for a non-Markovian single qubit system,” IEEE Conference on Control Applications, September 2015.
+[3963] S. Basu, S. Ganguly, S. Mukhopadhyay, R. DiBiano, M. Karki, and R. Nemani, “DeepSat - a learning framework for satellite imagery,” International Conference on Advances in Geographic Information Systems, November 2015.
+[4091] J. R. McClean, J. Romero, R. Babbush, and A. Aspuru-Guzik, “The theory of variational hybrid quantum-classical algorithms,” New Journal of Physics, February 2016.
+[3790] R. van Meter and S. J. Devitt, “The path to scalable distributed quantum computing,” Computer, September 2016.
+[3845] E. M. Stoudenmire and D. J. Schwab, “Supervised learning with tensor networks,” International Conference on Neural Information Processing Systems, December 2016.
+[4072] A. Kurakin, I. J. Goodfellow, and S. Bengio, “Adversarial machine learning at scale,” arXiv, February 2017.
+[3928] H-K. Lau, R. Pooser, G. Siopsis, and C. Weedbrook, “Quantum machine learning over infinite dimensions,” Physical Review Letters, February 2017.
+[3968] G. Cohen, S. Afshar, J. Tapson, and A. van Schaik, “EMNIST: an extension of MNIST to handwritten letters,” arXiv, March 2017.
+[3919] L. Ruiz-Perez and J. C. Garcia-Escartin, “Quantum arithmetic with the quantum Fourier transform,” Quantum Information Process, April 2017.
+[3966] Y. Levine, D. Yakira, N. Cohen, and A. Shashua, “Deep learning and quantum entanglement: Fundamental connections with implications to network design,” arXiv, April 2017.
+[3883] L. Abdi and A. Meddeb, “Deep learning traffic sign detection, recognition and augmentation,” Symposiumn on Applied Computing, April 2017.
+[3830] O. Liabotro, “Improved classical and quantum random access codes,” Physical Review, May 2017.
+[3827] M. Anderson, “Machine learning and quantum computing become BFFs,” Spectrum, August 2017.
+[3900] L. A. Goldberg and H. Guo, “The complexity of approximating complex-valued Ising and Tutte partition functions,” Computational Complexity, September 2017.
+[3717] J. Biamonte, P. Wittek, N. Pancotti, P. Rebentrost, N. Wiebe, and S. Lloyd, “Quantum machine learning,” Nature, September 2017.
+[3915] M. Schuld, M. Fingerhuth, and F. Petruccione, “Implementing a distance-based classifier with a quantum interference circuit,” A Letters Journal Exploring the Frontiers of Physics, September 2017.
+[3929] K. H. Wan, O. Dahlsten, H. Kristjansson, R. Gardner, and M. S. Kim, “Quantum generalisation of feedforward neural networks,” Quantum Information, September 2017.
+[3817] D. V. Filatov, K. V. Ignatev, A. V. Deviatkin, and E. V. Serykh, “Application of machine learning methods for traffic signs recognition,” 
+[3958] M. Henderson, J. Novak, and T. Cook, “Leveraging abiabatic quantum computation for election forecasting,” arXiv, January 2018.
+[3896] W. Farag and Z. Saleh, “Traffic signs identification by deep learning for autonomous driving,” Smart Cities Symposium, January 2018.
+[3819] E. P. DeBenedictis, “A future with quantum machine learning,” Computer, February 2018.
+[3661] V. Dunjko and H. J. Briegel, “Machine learning & artificial intelligence in the quantum domain: A review of recent progress,” Report on Progress, June 2018.
+[3659] E. Farhi and H. Neven, “Classification with quantum neural networks on near term processors,” arXiv, August 2018.
+[4254] M. Sadeghi and E. G. Larsson, “Adversarial attacks on deep-learning based radio signal classification,” arXiv, August 2018.
+[3823] E. P. DeBenedictis, “A role for IEEE in quantum computing,” Computer, August 2018.
+[3666] K. Mitarai, M. Negoro, M. Kitagawa, and K. Fujii, “Quantum circuit learning,” Physical Review, September 2018.
+[3719] N-H. Chia, H-H. Lin, C. Wang, “Quantum-inspired sublinear classical algorithms for solving low-rank linear systems,” November 2018.
+[3879] D. Yasmina, R. Karima, and A. Ouahiba, “Traffic signs recognition with deep learning,” International Conference on Applied Smart Systems, November 2018.
+[3954] W. Huggins, P. Patil, B. Mitchell, K. B. Whaley, and E. M. Stoudenmire, “Towards quantum machine learning with tensor networks,” Quantum Science and Technology, January 2019.
+[3952] Y. Sun, A. Gilbert, and A. Tewari, “But how does it work in theory? Linear SVM with random features,” arXiv, January 2019.
+[3842] M. Schuld and N. Killoran, “Quantum machine learning in feature Hilbert spaces,” Physical Review Letters, February 2019.
+[3975] T. M. Roberson and A. G. White, “Charting the Australian quantum landscape,” Quantum Science and Technology, February 2019.
+[3840] M. Henderson, S. Shakya, S. Pradhan, and T. Cook, “Quanvolutional Neural Networks: Powering image recognition with quantum circuits,” arXiv, April 2019. -> Appears to be published in Quantum Machine Intelligence, February 2020. See [3882].
+[3841] V. Havlicek, A. D. Corcoles, K. Temme, A. W. Harrow, A. Kandala, J. M. Chow and J. M. Gambetta, “Supervised learning with quantum-enhanced feature spaces,” Nature, March 2019.
+[3913] D. K. Park, F. Petruccione, and J-K. K. Rhee, “Circuit-based quantum random access memory for classical data,” Scientific Reports, March 2019.
+[3639] P. Tiwari and M. Melucci, “Towards a quantum-inspired binary classifier,” IEEE Access, April 2019.
+[4075] Y. Zhou, M. Kantarcioglu, and B. Xi, “A survey of game theoretic approach for adversarial machine learning,” Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, April 2019.
+[3813] S. J. Nawaz, S. K. Sharma, S. Wyne, M. N. Patwary, and M. Asaduzzaman, “Quantum machine learning for 6G communication networks: State-of-the-art and vision for the future,” IEEE Access, April 2019.
+[4090] S. Sim, P. D. Johnson, and A. Aspuru-Guzik, “Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms,” arXiv, May 2019.
+[4074] D. Roy, T. Mukherjee, and M. Chatterjee, “Machine learning in adversarial RF environments,” IEEE Communications Magazine, May 2019.
+[3953] R. Ghobadi, J. S. Oberoi, and E. Zahedinejhad, “The power of one qubit in machine learning,” arXiv, June 2019.
+[4127] P. Botsinis, D. Alanis, Z. Babar, H. V. Nguyen, D. Chandra, S. X. Ng, and L. Hanzo, “Quantum search algorithms for wireless communications,” IEEE Communications Surveys and Tutorials, Second Quarter, 2019.
+[3888] I. Cong, S. Choi, and M. D. Lukin, “Quantum convolutional neural networks,” Nature Physics, August 2019.
+[3959] S. H. Adachi, D. M. Davenport, and M. P. Henderson, “Quantum-assisted training of neural networks,” US Patent, September 2019.
+[3983] Y. Takeuchi, T. Morimae, and M. Hayashi, “Quantum computational universality of hypergraph states with Pauli-X and Z basis measurements,” Scientific Reports, September 2019.
+[4052] A. Mari, T. R. Bromley, J. Izaac, M. Schuld, and N. Killoran, “Transfer learning in hybrid classical-quantum neural networks,” Quantum, October 2020.
+[3927] N. Killoran, T. R. Bromley, J. M. Arrazola, M. Schuld, N. Quesada, and S. Lloyd, “Continuous-variable quantum neural networks,” Physical Review Research, October 2019.
+[4258] C. Zoufal, A. Lucchi, and S. Woerner, “Quantum generative adversarial networks for learning and loading random distributions,” Quantum Information, November 2019.
+[3844] M. Benedetti, E. Lloyd, S. Sack, and M. Fiorentini, “Parameterized quantum circuits as machine learning models,” Quantum Science and Technology, November 2019.
+[3822] J. Liu, K. H. Lim, K. L. Wood, W. Huang, C. Guo, and H-L. Huang, “Hybrid quantum-classical convolutional neural networks,” arXiv, November 2019.
+[3942] C. M. Wilson, J. S. Otterbach, N. Tezak, R. S. Smith, A. M. Polloreno, P. J. Karalekas, S. Heidel, M. S. Alam, G. E. Crooks, and M. P. de Silva, “Quantum kitchen sinks: An algorithm for machine learning on near-term quantum computers,” arXiv, November 2019.
+[4235] S. Sim, P. D. Johnson, and A. Aspuru-Guzik, “Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms,” Advanced Quantum Technologies, December 2019.
+[3933] A. Perez-Salinas, A. Cervera-Lierta, E. Gil-Fuster, and J. I. Latorre, “Data re-uploading for a universal quantum classifier,” Quantum, February 2020.
+[4201] S. Lloyd, M. Schuld, A. Ijaz, J. Izaac, and N. Killoran, “Quantum embeddings for machine learning,” arXiv, February 2020.
+[3882] M. Henderson, S. Shakya, S. Pradhan, and T. Cook, “Quanvolutional neural networks: powering image recognition with quantum circuits,” Quantum Machine Intelligence, February 2020.
+[3836] F. Ablayev, M. Ablayev, J. Z. Huang, K. Khadiev, N. Salikhova, and D. Wu, “On quantum methods for machine learning problems part I: Quantum tools,” Big Data Mining and Analytics, March 2020.
+[3838] F. Ablayev, M. Ablayev, J. Z. Huang, K. Khadiev, N. Salikhova, and D. Wu, “On quantum methods for machine learning problems part II: Quantum classification algorithms,” Big Data Mining and Analytics, March 2020.
+[3665] M. Schuld, A. Bocharov, K. M. Svore, and N. Wiebe, “Circuit-centric quantum classifiers,” Physical Review, March 2020.
+[4109] R. Iten, R. Colbeck, I. Kukuljan, J. Home, and M. Christandl, “Quantum circuits for isometries,” arXiv, April 2020.
+[3825] D. Dong, “Quantum cybernetics technical committee reports: Investigating the role of quantum effects in regulating quantum and classical systems,” IEEE Systems, Man, and Cybernetics Magazine, April 2020.
+[4077] CSIRO, “Growing Australia’s quantum technology industry,” May 2020.
+[3824] W. O’Quinn and S. Mao, “Quantum machine learning: Recent advances and outlook,” IEEE Wireless Communications, June 2020.
+[3890] Y. Li, R-G. Zhou, R. Xu, J. Luo and W. Hu, “A quantum deep convolutional neural network for image recognition,” Quantum Science and Technology, July 2020.
+[3724] E. Tang, “A quantum-inspired classical algorithm for recommendation systems,” Annual ACM SIGACT Symposium on Theory Comput., August 2020.
+[3718] J. M. Arrazola, A. Delgado, B. R. Bardhan, and S. Lloyd, “Quantum-inspired algorithms in practice,” Quantum, August 2020.
+[3887] R. LaRose and B. Coyle, “Robust data encodings for quantum classifiers,” Physical Review, September 2020.
+[3892] S. Oh, J. Choi and J. Kim, “A tutorial on quantum convolutional neural networks (QCNN),” International Conference on Information and Communication Technology Convergence, October 2020.
+[4130] T. M. Khan and A. Robles-Kelly, “Machine learning: Quantum vs classical,” IEEE Access, December 2020.
+[4051] D. Yumin, M. Wu, and J. Zhang, “Recognition of pneumonia image based on improved quantum neural network,” IEEE Access, December 2020.
+[3976] R. Potempa and S. Porebski, “Simulation of quantum neural network with evaluation of its performance,” Silesian University of Technology, January 2021.
+[3960] M. Henderson, J. Gallina, and M. Brett, “Methods for accelerating geospatial data processing using quantum computers,” Quantum Machine Intelligence, January 2021.
+[3911] S. Oh, J. Choi, J-K. Kim, and J. Kim, “Quantum convolutional neural network for resource-efficient image classification: A quantum random access memory (QRAM) approach,” International Conference on Information Networking, January 2021.
+[3998] Q. Gao, D. Dong, I. R. Petersen, and S. X. Ding, “Design of a discrete-time fault-tolerant quantum filter and fault detector,” IEEE Transactions on Cybernetics, February 2021.
+[4071] A. Chakraborty, M. Alam, V. Dey, A. Chattopadhyay, and D. Mukhopadhyay, “A survey on adversarial attacks and defences,” CAAI Transactions on Intelligence Technology, March 2021.
+[3898] M. Schuld, R. Sweke, and J. J. Meyer, “The effect of data encoding on the expressive power of variational quantum machine learning models,” Physical Review, March 2021.
+[4081] M. Schuld, “Supervised quantum machine learning models are kernel methods,” arXiv, April 2021.
+[3798] J. P. B. Ataides, D. K. Tuckett, S. D. Bartlett, S. T. Flammia, and B. J. Brown, “The XZZX surface code,” Nature Communications, April 2021.
+[3781] R. Clark, S. Bartlett, M. Bremner, P. K. Lam and T. Ralph, “The impact of quantum technologies on secure communications,” Australian Strategic Policy Institute, April 2021.
+[4070] H. Liao, I. Convy, W. J. Huggins, and K. B. Whaley, “Robust in practice: Adversarial attacks on quantum machine learning,” Physical Review A, April 2021.
+[4098] S. Altares-Lopez, A. Ribeiro, J. J. Garcia-Ripoll, “Automatic design of quantum feature maps,” Quantum Science and Technology, August 2021.
+[3925] H-Y. Huang, M. Broughton, M. Mohseni, R. Babbush, S. Boixo, H. Neven and J. R. McClean, “Power of data in quantum machine learning,” Nature Communications, May 2021.
+[3880] A. Palak and A. L Sangal, “Traffic signs classification using convolutional neural networks: A review,” International Conference on Secure Cyber Computing and Communications, May 2021.
+[4054] A. Abbas, D. Sutter, C. Zoufal, A. Lucchi, A. Figalli, and S. Woerner, “The power of quantum neural networks,” Nature Computational Science, June 2021.
+[3716] C. Ding, T-Y. Bao, and H-L. Huang, “Quantum-inspired support vector machine,” IEEE Transactions on Neural Networks and Learning Systems, June 2021, early access.
+[3951] F. Liu, X. Huang, Y. Chen, and J. A. K. Suykens, “Random features for kernel approximation: A survey on algorithms, theory, and beyond,” arXiv, July 2021.
+[4099] A. Perez-Salinas, D. Lopez-Nunez, A. Garcia-Saez, P. Forn-Diaz, and J. I. Latorre, “One qubit as a universal approximant,” Physical Review, July 2021.
+[3939] J. D. Martin-Guerrero and L. Lamata, “Quantum machine learning: A tutorial,” Neurocomputing, July 2021.
+[3967] J. Amin, M. Sharif, N. Gul, S. Kadry, and C. Chakraborty, “Quantum machine learning architecture for COVID-19 classification based on synthetic data generation using conditional adversarial neural network,” Cognitive Computation, August 2021.
+[4110] L. Moro, M. G. A. Paris, M. Restelli and E. Prati, “Quantum compiling by deep reinforcement learning,” Communications Physics, August 2021.
+[3835] R. Majumder, S. M. Khan, F. Ahmad, Z. Khan, F. Ngeni, G. Comert, J. Mwakalonge, D. Michalaka, and M. Chowdhury, “Hybrid classical-quantum deep learning models for autonomous vehicle traffic image classification under adversarial attack,” arXiv, August 2021.
+[3905] M. Cerezo, A. Arrasmith, R. Babbush, S. C. Benjamin, S. Endo, K. Fujii, J. R. McClean, K. Mitarai, X. Yuan, L. Cincio and P. J. Coles, “Variational quantum algorithms,” Nature Reviews Physics, August 2021.
+[3808] E. Perrier, A. Youssry, and C. Ferrie, “QDataset: Quantum datasets for machine learning,” https://arxiv.org/pdf/2108.06661.pdf, August 2021.
+[3974] R. Potempa and S. Porebski, “Comparing concepts of quantum and classical neural network models for image classification task,” Progress in Image Processing, Pattern Recognition and Communication Systems, August 2021.
+[4073] D. Adesina, C-C. Hsieh, Y. E. Sagduyu, and L. Qian, “Adversarial machine learning in wireless communications using RF data: A review,” arXiv, August 2021. -> To be published in IEEE Communications Surveys & Tutorials.
+[3923] J. Liu, K. H. Lim, K. L. Wood, W. Huang, C. Guo, and H-L. Huang, “Hybrid quantum-classical convolutional neural networks,” Science China, August 2021.
+[3829] H. Yano, Y. Suzuki, K. M. Itoh, R. Raymond, and N. Yamamoto, “Efficient discrete feature encoding for variational quantum classifier,” IEEE Transactions on Quantum Engineering, August 2021.
+[4053] N. Mathur, J. Landman, Y. Y. Li, M. Strahm, S. Kazdaghli, A. Prakash, and I. Kerenidis, “Medical image classification via quantum neural networks,” arXiv, September 2021.
+[3816] E. Y. Zhu, S. Johri, D. Bacon, M. Esencan, J. Kim, M. Muir, N. Murgai, J. Nguyen, N. Pisenti, A. Schouela, K. Sosnova, and K. Wright, “Generative quantum learning of joint probability distribution functions,” September 2021.
+[3826] D. Je, J. Jung, and S. Choi, “Toward 6G security: Technology trends, threats, and solutions,” IEEE Communications Standards Magazine, September 2021.
+[3662] P. Gawron and S. Lewinski, “Multi-spectral image classification with quantum neural network,” IGARSS 2020 - 2020 IEEE International Geoscience and Remote Sensing Symposium, September 2021.
+[3907] R. Zhao and S. Wang, “A review on quantum neural networks: Methods, models, dilemma,” arXiv, September 2021.
+[3839] Y. Liu, S. Arunachalam, and K. Temme, “A rigorous and robust quantum speed-up in supervised machine learning,” Nature Physics, September 2021.
+[3931] E. Ovalle-Magallanes, J. G. Avina-Cervantes, I. Cruz-Aceves, and J. Ruiz-Pinales, “Hybrid classical-quantum convolutional neural network for stenosis detection in X-ray coronary angiography,” Expert Systems with Applications, October 2021.
+[3828] Y. Deville and A. Deville, “New single-preparation methods for unsupervised quantum machine learning problems,” IEEE Transactions on Quantum Engineering, October 2021.
+[3782] S. Li, X. Zhou, and Y. Feng, “Qubit mapping based on subgraph isomorphism and filtered depth-limited search,” IEEE Transactions on Computers, November 2021.
+[4232] Y. Kumar, A. Koul, P. S. Sisodia, J. Shafi, K. Verma, M. Gheisari, and M. B. Davoodi, “Heart failure detection using quantum-enhanced machine learning and traditional machine learning techniques for internet of artificially intelligent medical things,” Wireless Communications and Mobile Computing, December 2021.
+[3780] S. D. Bartlett, “Programming a quantum phase of matter,” Science, December 2021.
+[3789] N. Yu, C-Y. Lai, and L. Zhou, “Protocols for packet quantum network intercommunication,” IEEE Transactions on Quantum Engineering, September 2021.
+[3965] G. R. Enos, M. J. Reagor, M. P. Henderson, C. Young, K. Horton, M. Birch, and C. Rigetti, “Synthetic weather radar using hybrid quantum-classical machine learning,” arXiv, November 2021.
+[3995] Y. Wang, C. Chen, and W. Huang, “Design of quantum filter for hybrid quantum-classical convolutional neural networks,” International Conference on Information Technology and Biomedical Engineering, December 2021.
+[3797] X. Hong, M. Ying, Y. Feng, X. Zhou, and S. Li, “Approximate equivalence checking of noisy quantum circuits,” ACM/IEEE Design Automation Conference, December 2021.
+[4215] D. Arthur and P. Date, “A hybrid quantum-classical neural network architecture for binary classification,” arXiv, January 2022.
+[4076] World Economic Forum, “Quantum Computing Governance Principles,” January 2022.
+[3935] D. P. Garcia, J. Cruz-Benito, and F. J. Garcia-Penalvo, “Systematic literature review: Quantum machine learning and its applications,” arXiv, January 2022.
+[3924] E. H. Houssein, Z. Abohashima, M. Elhoseny, and W. M. Mohamed, “Machine learning in the quantum realm: The state-of-the-art, challenges, and future vision,” Expert Systems with Applications, January 2022.
+[3891] S. Wei, Y. CHen, Z. Shou and G. Long, “A quantum convolutional neural network on NISQ devices,” AAPPS Bulletin, January 2022.
+[3820] M. Swan, F. Witte, R. P. dos Santos, “Quantum information science,” IEEE Internet Computing, Jan-Feb, 2022.
+[3893] T. Hur, L. Kim, and D. K. Park, “Quantum convolutional neural network for classical data classification,” Quantum Machine Intelligence, February 2022.
+[4089] K. Sharma, M. Cerezo, Z. Holmes, L. Cincio, A. Sornborger, and P. J. Coles, “Reformulation of the no-free-lunch theorem for entangled datasets,” Physical Review Letters, February 2022.
+[3821] Y. Chen, “Quantum dilated convolutional neural networks,” IEEE Access, February 2022.
+[3964] B. Mate, B. Le Saux, and M. Henderson, “Beyond Ansatze: Learning quantum circuits as unitary operators,” arXiv, March 2022.
+[3932] F. V. Massoli, L. Vadicamo, G. Amato, and F. Falchi, “A leap among quantum computing and quantum neural networks: A survey,” ACM Computing Surveys, April 2022.
+[3906] F. Valdez and P. Melin, “A review on quantum computing and deep learning algorithms and their applications,” Soft Computing, April 2022.
+[3926] E. H. Houssein, Z. Abohashima, M. Elhoseny, and W. M. Mohamed, “Hybrid quantum-classical convolutional neural network model for COVID-19 prediction using chest X-ray images,” Journal of Computational Design and Engineering, April 2022.
+[3784] Y. Feng and S. Li, “Verification of distributed quantum programs,” ACM Transactions on Computational Logic, April 2022.
+[4238] K. Nakaji, S. Uno, Y. Suzuki, R. Raymond, T. Onodera, T. Tanaka, H. Tezuka, N. Mitsuda, and N. Yamamoto, “Approximate amplitude encoding in shallow parameterized quantum circuits and its application to financial market indicator,” arXiv, May 2022.
+[3783] X. Zhou, Y. Feng, and S. Li, “Supervised learning enhanced quantum circuit transformation,” IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, May 2022.
+[3837] Z. Krunic, F. F. Flother, G. Seegan, N. D. Earnest-Nobel, and O. Shehab, “Quantum kernels for real-world predictions based on electronic health records,” IEEE Transactions on Quantum Engineering, May 2022.
+[3956] Y. Wang, Y. Wang, C. Chen, R. Jiang, W. Huang, “Development of variational quantum depp neural networks for image recognition,” Neurocomputing, June 2022.
+[4125] W. Li, Z. Lu, and D-L. Deng, “Quantum neural network classifiers: A tutorial,” arXiv, June 2022.
+[3897] L. S. Madsen, F. Laudenbach, M. F. Askarani, F. Rortais, T. Vincent, J. F. F. Bulmer, F. M. Miatto, L. Neuhaus, L. G. Helt, M. J. Collins, A. E. Lita, T. Gerrits, S. W. Nam, V. D. Vaidya, M. Menotti, I. Dhand, Z. Vernon, N. Quesada, and J. Lavoie, “Quantum computational advantage with a programmable photonic processor,” Nature, June 2022.
+[4129] T. Q. Duong, L. D. Nguyen, B. Narottama, J. A. Ansere, D. V. Huynh, and H. Shin, “Quantum-inspired real-time optimization for 6G networks: Opportunities, challenges, and the road ahead,” IEEE Open Journal of the Communications Society, August 2022.
+[3986] Y. Tian, L. Che, X. Long, C. Ren, and D. Lu, “Machine learning experimental multipartite entanglement structure,” Advanced Quantum Technologies, August 2022.
+[3922] E. Tang, “Dequantizing algorithms to understand quantum advantage in machine learning,” Nature Reviews Physics, September 2022.
+[3970] S. Kuros and T. Kryjak, “Traffic sign classification using deep and quantum neural networks,” arXiv, September 2022.
+[4078] CSIRO, “Growing Australia’s quantum technology industry: Updated economic modelling,” October 2022.
+[4216] A. Sagingalieva, M. Kordzanganeh, N. Kenbayev, D. Kosichkina, T. Tomashuk, and A. Melnikov, “Hybrid quantum neural network for drug response prediction,” arXiv, November 2022.
+[4069] W. Ren, W. Li, S. Xu, K. Wang, W. Jiang, F. Jin, X. Zhu, J. Chen, Z. Song, P. Zhang, H. Dong, X. Zhang, J. Deng, Y. Gao, C. Zhang, Y. Wu, B. Zhang, Q. Guo, H. Li, Z. Wang, J. Biamonte, C. Song, D-L. Deng, and H. Wang, “Experimental quantum adversarial learning with programmable superconducting qubits,” Nature Computational Science, November 2022.
+[4100] B. Albrecht, C. Dalyac, L. Leclerc, L. Ortiz-Gutierrez, S. Thabet, M. D’Arcangelo, V. E. Elfving, L. Lassabliere, H. Silverio, B. Ximenez, L-P. Henry, A. Signoles, and L. Henriet, “Quantum feature maps for graph machine learning on a neutral atom quantum processor,” arXiv, November 2022.
+[4111] M. T. West, S. M. Erfani, C. Leckie, M. Sevior, L. C. L. Hollenberg, and M. Usman, “Benchmarking adversarially robust quantum machine learning at scale,” arXiv, November 2022.
+[4255] R. G. Patel, C-W. Hsing, S. Sahin, S. Palmer, S. S. Jahromi, S. Sharma, T. Dominguez, K. Tziritas, C. Michel, V. Porte, M. Abid, S. Aubert, P. Castellani, S. Mugel, and R. Orus, “Quantum-inspired tensor neural networks for option pricing,” arXiv, December 2022.

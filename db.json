@@ -1,0 +1,443 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "c2df235d-07d1-478c-a85b-6f5631c4d84b",
+            "created_time": "2023-03-13T06:33:00.000Z",
+            "last_edited_time": "2023-03-13T06:33:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "d46b6729-ddcf-414c-bacb-bf365b21ea12"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "d46b6729-ddcf-414c-bacb-bf365b21ea12"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "4d99a200-a5da-4c30-aea4-dbfe248d0f23"
+            },
+            "archived": false,
+            "properties": {
+                "Last edited time": {
+                    "id": "BbBI",
+                    "type": "last_edited_time",
+                    "last_edited_time": "2023-03-13T06:33:00.000Z"
+                },
+                "Topics": {
+                    "id": "OY]Y",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Link": {
+                    "id": "Ph\\l",
+                    "type": "files",
+                    "files": []
+                },
+                "Short Notes": {
+                    "id": "TZha",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Subtopics": {
+                    "id": "_>pE",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Status": {
+                    "id": "sW@r",
+                    "type": "status",
+                    "status": {
+                        "id": "1d319f3d-2940-4fb6-a3ec-ba98d9440755",
+                        "name": "Not started",
+                        "color": "default"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": []
+                }
+            },
+            "url": "https://www.notion.so/c2df235d07d1478ca85b6f5631c4d84b"
+        },
+        {
+            "object": "page",
+            "id": "5742809f-605e-4611-9cfd-8f2b923e4bc4",
+            "created_time": "2023-03-09T05:26:00.000Z",
+            "last_edited_time": "2023-03-09T05:34:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "d46b6729-ddcf-414c-bacb-bf365b21ea12"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "d46b6729-ddcf-414c-bacb-bf365b21ea12"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "4d99a200-a5da-4c30-aea4-dbfe248d0f23"
+            },
+            "archived": false,
+            "properties": {
+                "Last edited time": {
+                    "id": "BbBI",
+                    "type": "last_edited_time",
+                    "last_edited_time": "2023-03-09T05:34:00.000Z"
+                },
+                "Topics": {
+                    "id": "OY]Y",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "f2cc8946-5875-42be-a4b3-8243a3c944ea",
+                            "name": "Machine Learning",
+                            "color": "blue"
+                        },
+                        {
+                            "id": "9b203310-62c2-4753-b444-b1f6ef80bb8b",
+                            "name": "QiML",
+                            "color": "yellow"
+                        }
+                    ]
+                },
+                "Link": {
+                    "id": "Ph\\l",
+                    "type": "files",
+                    "files": [
+                        {
+                            "name": "https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/49315/Srinivasan_washington_0250E_24792.pdf?sequence=1&isAllowed=y",
+                            "type": "external",
+                            "external": {
+                                "url": "https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/49315/Srinivasan_washington_0250E_24792.pdf?sequence=1&isAllowed=y"
+                            }
+                        }
+                    ]
+                },
+                "Type": {
+                    "id": "TJRX",
+                    "type": "select",
+                    "select": {
+                        "id": "3f254023-a770-4b8b-b54e-fdcc8db5af02",
+                        "name": "Thesis",
+                        "color": "default"
+                    }
+                },
+                "Short Notes": {
+                    "id": "TZha",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Subtopics": {
+                    "id": "_>pE",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Priority": {
+                    "id": "azGN",
+                    "type": "select",
+                    "select": {
+                        "id": "ab77bf16-6970-4c63-b2fd-5d7aa6b74652",
+                        "name": "Medium",
+                        "color": "orange"
+                    }
+                },
+                "Status": {
+                    "id": "sW@r",
+                    "type": "status",
+                    "status": {
+                        "id": "1d319f3d-2940-4fb6-a3ec-ba98d9440755",
+                        "name": "Not started",
+                        "color": "default"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Quantum-inspired Machine\nLearning with Hidden Quantum\nMarkov Models and Tensor\nNetworks",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Quantum-inspired Machine\nLearning with Hidden Quantum\nMarkov Models and Tensor\nNetworks",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Quantum-inspired-Machine-Learning-with-Hidden-Quantum-Markov-Models-and-Tensor-Networks-5742809f605e46119cfd8f2b923e4bc4"
+        },
+        {
+            "object": "page",
+            "id": "79e180f9-1025-4a01-be58-7031ffe4e27b",
+            "created_time": "2023-03-09T05:26:00.000Z",
+            "last_edited_time": "2023-03-09T05:34:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "d46b6729-ddcf-414c-bacb-bf365b21ea12"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "d46b6729-ddcf-414c-bacb-bf365b21ea12"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "4d99a200-a5da-4c30-aea4-dbfe248d0f23"
+            },
+            "archived": false,
+            "properties": {
+                "Last edited time": {
+                    "id": "BbBI",
+                    "type": "last_edited_time",
+                    "last_edited_time": "2023-03-09T05:34:00.000Z"
+                },
+                "Topics": {
+                    "id": "OY]Y",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "b26c581a-068d-4355-88cd-c328135700de",
+                            "name": "Quantum Computing",
+                            "color": "purple"
+                        },
+                        {
+                            "id": "7c44267d-d9d1-4156-b325-0b7904d1e4ff",
+                            "name": "Quantum Information",
+                            "color": "red"
+                        }
+                    ]
+                },
+                "Link": {
+                    "id": "Ph\\l",
+                    "type": "files",
+                    "files": [
+                        {
+                            "name": "https://rsl.yale.edu/sites/default/files/files/RSL_Theses/jmcthesis.pdf",
+                            "type": "external",
+                            "external": {
+                                "url": "https://rsl.yale.edu/sites/default/files/files/RSL_Theses/jmcthesis.pdf"
+                            }
+                        }
+                    ]
+                },
+                "Type": {
+                    "id": "TJRX",
+                    "type": "select",
+                    "select": {
+                        "id": "3f254023-a770-4b8b-b54e-fdcc8db5af02",
+                        "name": "Thesis",
+                        "color": "default"
+                    }
+                },
+                "Short Notes": {
+                    "id": "TZha",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Subtopics": {
+                    "id": "_>pE",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Priority": {
+                    "id": "azGN",
+                    "type": "select",
+                    "select": {
+                        "id": "ab77bf16-6970-4c63-b2fd-5d7aa6b74652",
+                        "name": "Medium",
+                        "color": "orange"
+                    }
+                },
+                "Status": {
+                    "id": "sW@r",
+                    "type": "status",
+                    "status": {
+                        "id": "1d319f3d-2940-4fb6-a3ec-ba98d9440755",
+                        "name": "Not started",
+                        "color": "default"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Q",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Q",
+                            "href": null
+                        },
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "uantum Information Processing with Superconducting Qubits",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": true,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "uantum Information Processing with Superconducting Qubits",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Quantum-Information-Processing-with-Superconducting-Qubits-79e180f910254a01be587031ffe4e27b"
+        },
+        {
+            "object": "page",
+            "id": "cb1f64db-079a-47ea-a643-a8fa77b37e73",
+            "created_time": "2023-03-09T05:26:00.000Z",
+            "last_edited_time": "2023-03-13T06:33:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "d46b6729-ddcf-414c-bacb-bf365b21ea12"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "d46b6729-ddcf-414c-bacb-bf365b21ea12"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "4d99a200-a5da-4c30-aea4-dbfe248d0f23"
+            },
+            "archived": false,
+            "properties": {
+                "Last edited time": {
+                    "id": "BbBI",
+                    "type": "last_edited_time",
+                    "last_edited_time": "2023-03-13T06:33:00.000Z"
+                },
+                "Topics": {
+                    "id": "OY]Y",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "c95e8258-ceaa-4a9c-b1cd-9e2663f445d1",
+                            "name": "QML",
+                            "color": "green"
+                        }
+                    ]
+                },
+                "Link": {
+                    "id": "Ph\\l",
+                    "type": "files",
+                    "files": [
+                        {
+                            "name": "3955 A practical introduction to tensor networks - Matrix product states and projected entangled pair states[89].pdf",
+                            "type": "file",
+                            "file": {
+                                "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/51da294e-6736-4b1f-b036-e48bad06285c/3955_A_practical_introduction_to_tensor_networks_-_Matrix_product_states_and_projected_entangled_pair_states89.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230313%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230313T072919Z&X-Amz-Expires=3600&X-Amz-Signature=3305307911578de1dca6c20dc185202c890e4268cbaa2dc69578d0f6281749aa&X-Amz-SignedHeaders=host&x-id=GetObject",
+                                "expiry_time": "2023-03-13T08:29:19.452Z"
+                            }
+                        }
+                    ]
+                },
+                "Type": {
+                    "id": "TJRX",
+                    "type": "select",
+                    "select": {
+                        "id": "0c790c36-f750-45c5-b97c-19a7ffa0d8f2",
+                        "name": "Journal",
+                        "color": "green"
+                    }
+                },
+                "Short Notes": {
+                    "id": "TZha",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Subtopics": {
+                    "id": "_>pE",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "0570be90-1967-43b8-b75b-5ce0952f09bd",
+                            "name": "Tensor Networks",
+                            "color": "green"
+                        }
+                    ]
+                },
+                "Priority": {
+                    "id": "azGN",
+                    "type": "select",
+                    "select": {
+                        "id": "69c255c9-e729-43e7-9304-84d1c7ec37a6",
+                        "name": "High",
+                        "color": "red"
+                    }
+                },
+                "Status": {
+                    "id": "sW@r",
+                    "type": "status",
+                    "status": {
+                        "id": "d1cfbfb4-1db9-4a4e-a0d4-0d236ccb9d75",
+                        "name": "In progress",
+                        "color": "blue"
+                    }
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "A practical introduction to tensor networks: Matrix product states and projected entangled pair states",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "A practical introduction to tensor networks: Matrix product states and projected entangled pair states",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/A-practical-introduction-to-tensor-networks-Matrix-product-states-and-projected-entangled-pair-stat-cb1f64db079a47eaa643a8fa77b37e73"
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false
+}
