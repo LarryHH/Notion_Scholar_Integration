@@ -73,8 +73,8 @@ def create_page(name=None, authors=None, year=None, venue=None, link=None, citat
                 "number": year
             },
             "Venue": {
-                "type": "rich_text",
-                "rich_text": []
+                "type": "select",
+                "select": None
             },
             "Status": {
                 "type": "status",
