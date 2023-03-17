@@ -1,8 +1,8 @@
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 
-class Source:
+class Scholar:
     """single Google Soholar search result"""
-    def __init__(self) -> None:
+    def __init__(self, scraper_api_key) -> None:
         self.name = None
         self.authors = None
         self.year = None
@@ -10,12 +10,25 @@ class Source:
         self.link = None
         self.citations = None
 
+        self.establish_proxy(scraper_api_key)
+
     def __str__(self) -> str:
         return f'{self.name},{self.authors},{self.year},{self.citations},{self.venue},{self.link}'
 
     def reset(self):
         """reset object variables to None"""
-        self.__init__()
+        self.name = None
+        self.authors = None
+        self.year = None
+        self.venue = None
+        self.link = None
+        self.citations = None
+
+    def establish_proxy(self, scraper_api_key):
+        """use ScraperAPI proxy"""
+        pg = ProxyGenerator()
+        success = pg.ScraperAPI(scraper_api_key)
+        scholarly.use_proxy(pg)
 
     def get_pub_by_title(self, title):
         """get single Scholar result from title search"""
@@ -35,7 +48,7 @@ class Source:
     
 
 if __name__ == "__main__":
-    source = Source()
-    source.get_pub_by_title('V. Giovannetti, S. Lloyd, and L. Maccone, “Quantum random access memory,” Physical Review Letters, April 2008.')
-    print(source)
+    scholar = Scholar("scraper_api_key")
+    scholar.get_pub_by_title('V. Giovannetti, S. Lloyd, and L. Maccone, “Quantum random access memory,” Physical Review Letters, April 2008.')
+    print(scholar)
 

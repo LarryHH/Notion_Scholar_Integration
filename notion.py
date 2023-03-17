@@ -4,10 +4,8 @@ import inspect
 import json
 from configparser import ConfigParser
 from difflib import SequenceMatcher
-
 import requests
 
-# import parse_titles as pt
 import scholar as gs
 
 
@@ -16,11 +14,12 @@ def print_rest_status(res):
     print(
         f"--- {res.status_code} - {res.reason} from: {inspect.stack()[1][3]} ---")
     # print(res.text)
+    # print('\n\n')
 
 
 def read_db():
     """reads notion database and returns data"""
-    url = f"https://api.notion.com/v1/databases/{DATABASE_ID}/query"
+    url = f"https://api.notion.com/v1/databases/{NOTION_DATABASE_ID}/query"
     res = requests.request("POST", url, headers=HEADERS)
     print_rest_status(res)
     data = res.json()
@@ -29,11 +28,39 @@ def read_db():
     return data
 
 
+def format_authors(authors):
+    """convert authors in list form into Notion multi-select property"""
+    if authors:
+        return [{"name": str(author)} for author in authors]
+    return []
+
+
+def format_venue(venue):
+    """convert venue in str form into Notion select property"""
+    if venue:
+        return {"name": venue}
+    return None
+
+
+def format_link(link):
+    """convert link in str form into Notion files property"""
+    if link:
+        return [
+            {
+                "name": link[:50],
+                "external": {
+                    "url": link
+                }
+            }
+        ]
+    return []
+
+
 def create_page(name=None, authors=None, year=None, venue=None, link=None, citations=None):
     """create new database entry"""
     page = {
         "parent": {
-            "database_id": DATABASE_ID
+            "database_id": NOTION_DATABASE_ID
         },
         "properties": {
             "Name": {
@@ -42,7 +69,7 @@ def create_page(name=None, authors=None, year=None, venue=None, link=None, citat
             },
             "Link": {
                 "type": "files",
-                "files": []
+                "files": format_link(link)
             },
             "Topics": {
                 "type": "multi_select",
@@ -54,7 +81,7 @@ def create_page(name=None, authors=None, year=None, venue=None, link=None, citat
             },
             "Authors": {
                 "type": "multi_select",
-                "multi_select": []
+                "multi_select": format_authors(authors)
             },
             "Type": {
                 "type": "select",
@@ -74,7 +101,7 @@ def create_page(name=None, authors=None, year=None, venue=None, link=None, citat
             },
             "Venue": {
                 "type": "select",
-                "select": None
+                "select": format_venue(venue)
             },
             "Status": {
                 "type": "status",
@@ -119,44 +146,47 @@ def add_page(page):
     res = requests.request("POST", url, headers=HEADERS, data=data)
     print_rest_status(res)
 
+def bulk_add_to_db(scholar, papers):
+    """add list of papers to Notion db"""
+    for i, paper in enumerate(papers):
+        print(f"--- PAPER INDEX: {i} ---\n{paper}")
+        scholar.get_pub_by_title(paper)
+        page = create_page(
+            name=scholar.name,
+            year=scholar.year,
+            citations=scholar.citations,
+            authors=scholar.authors,
+            link=scholar.link,
+            venue=scholar.venue
+        )
+        if not check_duplicate_page(db, page):
+            add_page(page)
 
-def load_config_notion(fp):
+def read_papers_from_txt(fp):
+    """read in a list of papers from text file"""
+    with open(fp, encoding='utf8') as f:
+        papers = f.read().splitlines() 
+    return papers
+
+def load_config(fp):
     """read notion credentials"""
     config = ConfigParser()
     config.read(fp)
-    db_id = config.get('NOTION', 'DATABASE_ID')
-    token = config.get('NOTION', 'INTEGRATION_TOKEN')
-    return db_id, token
-
+    notion_db_id = config.get('NOTION', 'DATABASE_ID')
+    notion_token = config.get('NOTION', 'INTEGRATION_TOKEN')
+    scraperapi_key = config.get('SCRAPER_API', 'API_KEY')
+    return notion_db_id, notion_token, scraperapi_key
 
 if __name__ == "__main__":
-    db_id, token = load_config_notion('config.ini')
-    INTEGRATION_TOKEN = token
-    DATABASE_ID = db_id
+    NOTION_DATABASE_ID, NOTION_INTEGRATION_TOKEN, SCRAPER_API_KEY = load_config('config.ini')
     HEADERS = {
-        "Authorization": "Bearer " + INTEGRATION_TOKEN,
+        "Authorization": "Bearer " + NOTION_INTEGRATION_TOKEN,
         "Content-Type": "application/json",
         "Notion-Version": "2022-06-28"
     }
 
     db = read_db()
-
-    papers = [
-        '''A. L. Samuel, “Some studies in machine learning using the game of checkers, ” IBM Journal of Research and Development, July 1959.''',
-        '''S. C. Kak, “Quantum neural computing, ” Advances in Imaging and Electron Physics, 1995.''',
-        '''M. W. Berry, S. T. Dumais and G. W. O’Brien, “Using linear algebra for intelligent information retrieval, ” SIAM Rev., December 1995.'''
-    ]
-
-    source = gs.Source()
-    for paper in papers:
-        source.reset()
-        print(paper)
-        source.get_pub_by_title(paper)
-        print(source)
-        page = create_page(
-            name=source.name,
-            year=source.year,
-            citations=source.citations
-        )
-        if not check_duplicate_page(db, page):
-            add_page(page)
+    papers = read_papers_from_txt('papers.txt')
+    scholar = gs.Scholar(SCRAPER_API_KEY)
+    bulk_add_to_db(scholar, papers)
+    
