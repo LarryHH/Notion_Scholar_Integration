@@ -5,7 +5,8 @@ import json
 from configparser import ConfigParser
 from difflib import SequenceMatcher
 import requests
-
+import time
+import random
 import scholar as gs
 
 
@@ -133,7 +134,6 @@ def check_duplicate_page(db, page):
     for t in titles:
         score = similar(page['properties']['Name']
                         ['title'][0]['text']['content'], t)
-        print(score)
         if score > 0.95:
             return True
     return False
@@ -149,6 +149,7 @@ def add_page(page):
 def bulk_add_to_db(scholar, papers):
     """add list of papers to Notion db"""
     for i, paper in enumerate(papers):
+        time.sleep(random.uniform(3, 10))
         print(f"--- PAPER INDEX: {i} ---\n{paper}")
         scholar.get_pub_by_title(paper)
         page = create_page(
@@ -161,6 +162,8 @@ def bulk_add_to_db(scholar, papers):
         )
         if not check_duplicate_page(db, page):
             add_page(page)
+        else:
+            print(f"Duplicate Paper!: {scholar.name} - not added")
 
 def read_papers_from_txt(fp):
     """read in a list of papers from text file"""
@@ -186,7 +189,7 @@ if __name__ == "__main__":
     }
 
     db = read_db()
-    papers = read_papers_from_txt('papers.txt')
-    scholar = gs.Scholar(SCRAPER_API_KEY)
+    papers = read_papers_from_txt('formatted_papers.txt')
+    scholar = gs.Scholar()
+    # scholar.establish_proxy(SCRAPER_API_KEY)
     bulk_add_to_db(scholar, papers)
-    

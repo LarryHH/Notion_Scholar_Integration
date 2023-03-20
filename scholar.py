@@ -2,15 +2,13 @@ from scholarly import scholarly, ProxyGenerator
 
 class Scholar:
     """single Google Soholar search result"""
-    def __init__(self, scraper_api_key) -> None:
+    def __init__(self) -> None:
         self.name = None
         self.authors = None
         self.year = None
         self.venue = None
         self.link = None
         self.citations = None
-
-        self.establish_proxy(scraper_api_key)
 
     def __str__(self) -> str:
         return f'{self.name},{self.authors},{self.year},{self.citations},{self.venue},{self.link}'
@@ -41,10 +39,16 @@ class Scholar:
         if search_query:
             self.name = str(search_query['bib'].get('title', None))
             self.authors = list(search_query['bib'].get('author', None))
-            self.year = int(search_query['bib'].get('pub_year', None))
             self.venue = str(search_query['bib'].get('venue', None))
             self.link = str(search_query.get('eprint_url', None))
-            self.citations = int(search_query.get('num_citations', None))
+            try:
+                self.year = int(search_query['bib'].get('pub_year', None))
+            except:
+                self.year = None
+            try:
+                self.citations = int(search_query.get('num_citations', None))
+            except:
+                self.citations = None
     
 
 if __name__ == "__main__":
